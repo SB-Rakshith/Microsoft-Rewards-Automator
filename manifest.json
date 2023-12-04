@@ -1,0 +1,42 @@
+{
+	"manifest_version": 3,
+	"name": "Microsoft Rewards Automator",
+	"author": "Alphaspecs",
+	"version": "1.0.0",
+	"description": "Earn Microsoft Rewards Points effortlessly with a single click by automating Bing searches",
+	"background": {
+		"service_worker": "/js/service-worker.js"
+	},
+	"icons": {
+		"16": "/img/16.png",
+		"32": "/img/32.png",
+		"48": "/img/48.png",
+		"128": "/img/128.png",
+		"256": "/img/256.png",
+		"512": "/img/bing.png"
+	},
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "/img/16.png",
+			"32": "/img/32.png",
+			"48": "/img/48.png",
+			"128": "/img/128.png",
+			"256": "/img/256.png",
+			"512": "/img/bing.png"
+		}
+	},
+	"permissions": [
+		"debugger"
+	],
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"content_scripts": [
+		{
+			"js": ["/js/content.js"],
+			"matches": [
+				"https://www.bing.com/*"
+			],
+			"run_at": "document_start"
+		}
+	]
+}

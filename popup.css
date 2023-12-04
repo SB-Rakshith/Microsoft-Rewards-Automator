@@ -1,0 +1,210 @@
+
+body {
+	font-family: outfit;
+}
+p {
+	text-align: left;
+}
+main {
+	background: #eee;
+	height: 100%;
+	font-size: 5vw;
+	padding:2vh 4vw 	;
+	width: inherit;
+	border: 2px solid #eee;
+}
+h4{
+	margin-bottom: 5px;
+}
+.user {
+	column-gap: 2vw !important;
+	margin-top: 0;
+	padding: 0;
+}
+.search-container {
+	gap: 2vw;
+	height: fit-content;
+	margin: 0;
+	padding-bottom: 0;
+	width: 47.2%;
+}
+.search-container:nth-child(1) {
+	padding-right: 0;
+}
+.search-container:nth-child(2) {
+	padding-left: 0;
+}
+input {
+	background: var(--bunker-50);
+	font-size: inherit;
+	padding: 2.5vw;
+	text-align: left;
+	width: 100%;
+	border-radius: 2.5vw;
+}
+#userDefined {
+	clear: both;
+	margin: 4vw;
+	margin-top: 0;
+}
+p#progress {
+	margin-top: 1.5vw;
+	text-align: center;
+	width: 47%;
+}
+main div {
+	background: #fff;
+	border-radius: 4vw;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 4vw;
+	gap: 5vw;
+	justify-content: space-between;
+	margin-top: 2vw;
+	padding: 5vw;
+	-webkit-border-radius: 4vw;
+	-moz-border-radius: 4vw;
+	-ms-border-radius: 4vw;
+	-o-border-radius: 4vw;
+}
+main div a {
+	display: flex;
+	font-size: 80%;
+	gap: 2vw;
+	width: 37.5vw;
+}
+#speed {
+	gap: 2vw !important;
+	margin: 2vw 0;
+}
+#update {
+	gap: 2vw !important;
+	margin: 5vw 0;
+}
+#speed  p {
+	display: inline-block;
+	width: 100%;
+}
+#user{
+	gap: 2vw !important;
+	margin: 5vw 0;
+}
+
+#user  p {
+	display: inline-block;
+	width: 100%;
+}
+#speed .btn {
+	width: 23vw;
+}
+
+
+.disabled {
+	background: var(--bunker-50) !important;
+	color: black !important;
+}
+.blocked{
+	pointer-events: none;
+	opacity: 0.5;
+}
+a#userDefined.btn {
+    display: block;
+    width: 100%;
+    background: none; /* Set background to none */
+    border: 2px solid green;
+    color: black; /* Adjust text color as needed */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Add padding for better appearance */
+    text-decoration: none; /* Remove underline */
+}
+#auto {
+	gap: 2vw !important;
+	margin: 2vw 0;
+}
+#auto .btn { 
+ 	font-size: 4vw;
+    border: 2px solid orange; /* Change 'blue' to your desired border color */
+    background: none; /* Set background to none */
+    color: black; /* Adjust text color as needed */
+    text-align: center; /* Center-align text */
+    padding: 5px; /* Add padding for better appearance */
+    text-decoration: none; /* Remove underline */
+}
+#promo {
+	inset: 0;
+	position: absolute;
+	z-index: -10;
+}
+.red {
+	color: var(--red-500);
+}
+footer {
+    background: #fff;
+    font-size: 4vw;
+    padding: 2vw;
+    text-align: justify;
+    border-top: 2px solid gray; /* Border only on the top side */
+}
+
+footer p {
+	text-align: center;
+}
+footer a {
+	display: inline;
+	font-weight: 700;
+}
+
+
+#stop {
+	background: var(--red-700);
+	border-radius: 2.4vw;
+	color: var(--white);
+	display: none;
+	left: 50%;
+	padding: 4vw 8vw;
+	position: absolute;
+	top: 50%;
+	translate: -50% -50%;
+	z-index: 100;
+}
+#update {
+	background: white;
+	color: black;
+	border-radius: 4vw;
+    border: 2px solid #d27cf7;
+	display:block;
+	flex-wrap: wrap;
+	font-size: 4vw;
+	gap: 5vw;
+	justify-content: space-between;
+	margin-top: 2vw;
+	padding: 3vw;
+}
+
+#update a.btn-style {
+  	font-size: 4vw;
+	display: inline; /* Adjust display property */
+    align-items: center;
+    color: red;
+    cursor: pointer;
+    justify-content: center;
+    padding: 2.5vw 2.5vw;
+    -webkit-border-radius: 2.5vw;
+    -moz-border-radius: 2.5vw;
+    -ms-border-radius: 2.5vw;
+    -o-border-radius: 2.5vw;
+}
+
+#cation {
+	background: #fae3fc;
+	color: black;
+	border-radius: 1vw;
+    border: 1px solid red;
+	display:block;
+	flex-wrap: wrap;
+	font-size: 2vh	;
+	gap: 5vw;
+	justify-content: space-between;
+	margin-top: 2vw;
+	padding: 2vw;
+}

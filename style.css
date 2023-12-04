@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+*,
+*::after,
+*::before {
+    background: transparent;
+    border: none;
+    box-sizing: border-box;
+    color: inherit;
+    font-family: "Inter";
+    font-weight: inherit;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+}
+a, a:visited {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+
+:root {
+    --blue-50: #edf9ff;
+    --blue-100: #d6f1ff;
+    --blue-200: #b5e8ff;
+    --blue-300: #83dbff;
+    --blue-400: #48c5ff;
+    --blue-500: #1ea5ff;
+    --blue-600: #0686ff;
+    --blue-700: #0072ff;
+    --blue-800: #0857c5;
+    --blue-900: #0d4c9b;
+    --blue-950: #0e2f5d;
+    --bunker-50: #f5f6f8;
+    --bunker-100: #dce6eb;
+    --bunker-200: #b9ccd6;
+    --bunker-300: #8fa7b9;
+    --bunker-400: #67849a;
+    --bunker-500: #4d697f;
+    --bunker-600: #3c5265;
+    --bunker-700: #334352;
+    --bunker-800: #2c3743;
+    --bunker-900: #283039;
+    --bunker-950: #131920;
+    --shamrock-50: #f0fdf5;
+    --shamrock-100: #dcfce8;
+    --shamrock-200: #bbf7d1;
+    --shamrock-300: #86efac;
+    --shamrock-400: #4ade80;
+    --shamrock-500: #22c55d;
+    --shamrock-600: #16a349;
+    --shamrock-700: #15803c;
+    --shamrock-800: #166533;
+    --shamrock-900: #14532b;
+    --shamrock-950: #052e14;
+    --translucent-bunker-50: #f5f6f8aa;
+    --translucent-bunker-100: #dce6ebaa;
+    --translucent-bunker-200: #b9ccd6aa;
+    --translucent-bunker-300: #8fa7b9aa;
+    --translucent-bunker-400: #67849aaa;
+    --translucent-bunker-500: #4d697faa;
+    --translucent-bunker-600: #3c5265aa;
+    --translucent-bunker-700: #334352aa;
+    --translucent-bunker-800: #2c3743aa;
+    --translucent-bunker-900: #283039aa;
+    --translucent-bunker-950: #131920aa;
+    --white: #f5f5f5;
+    --black: #0a0a0a;
+    --transparent: transparent;
+    --red-50: #fff0f0;
+    --red-100: #ffdddd;
+    --red-200: #ffc0c0;
+    --red-300: #ff9494;
+    --red-400: #ff5757;
+    --red-500: #ff2323;
+    --red-600: #ff0000;
+    --red-700: #d70000;
+    --red-800: #b10303;
+    --red-900: #920a0a;
+    --red-950: #500000;
+    --green-50: #e7ffe4;
+    --green-100: #c9ffc4;
+    --green-200: #98ff90;
+    --green-300: #56ff50;
+    --green-400: #00ff00;
+    --green-500: #00e606;
+    --green-600: #00b809;
+    --green-700: #008b07;
+    --green-800: #076d0d;
+    --green-900: #0b5c11;
+    --green-950: #003406;
+}
+
+.btn {
+    align-items: center;
+    background: #5dbea3;
+    border-radius: 2.5vw;
+    border: 2px solid #5dbea3;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 2.5vw 4vw;
+    -webkit-border-radius: 2.5vw;
+    -moz-border-radius: 2.5vw;
+    -ms-border-radius: 2.5vw;
+    -o-border-radius: 2.5vw;
+}
+.material-symbols-outlined {
+	font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 12;
+}

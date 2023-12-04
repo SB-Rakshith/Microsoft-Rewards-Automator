@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Microsoft Rewards Automator</title>
+		<link rel="shortcut icon" href="/img/32.png" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="/img/32.png" />
+		<link rel="stylesheet" href="popup.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/index.js"></script>
+	</head>
+	<body>
+		<button id="stop">Stop!!</button>
+		<main>
+			<div id="update">
+		    	<p>⚠️ New Update Available! Here -><a href="https://rakshithsb.me" target="_blank" class="btn-style">😍</a></p>
+			</div>
+
+			<div id="cation">
+				 <p style="margin-bottom: 10px;	font-size: 4vw;"><span style="color: red;">NEW!!😞</span></p>
+			    <p style="margin-bottom: 10px;"><span style="color: red;">&#9733;</span> Points are awarded for only 3 searches per 15 min.</p>
+			    <p style="margin-bottom: 10px;"><span style="color: red;">&#9733;</span> We recommend using 4-5 min searching speed.</p>
+			</div>
+
+
+
+			<div id="speed">
+				<p>Search Speed:</p>
+				<a id="fast" class="btn">1Sec</a>
+				<a id="slow" class="btn">5Min</a>
+				<a id="variable" class="btn">4-5Min</a>
+			</div>
+
+			<div id=auto>
+				<a id="s30" class="btn">D×30 </a
+				><a id="s60" class="btn">D×60 + M×30 </a
+				><a id="s90" class="btn">D×90  + M×60 </a
+				><a id="s150" class="btn">D×150  + M×90 </a>
+			</div>
+
+			<div class="user">
+				<div class="search-container">
+					<p>Desktop(D):</p>
+					<input
+						type="number"
+						value="0"
+						min="0"
+						max="250"
+						id="desktop" />
+				</div>
+
+				<div class="search-container">
+					<p>Mobile(M):</p>
+					<input
+						type="number"
+						value="0"
+						min="0"
+						max="250"
+						id="mobile" />
+				</div>
+				
+				<a id="userDefined" class="btn">Search</a>
+			</div>
+			
+			
+		</main>
+		<footer>
+			<h4>Made with love <span class="red">❤</span> by <a href="https://rakshithsb.me" target="_blank">rakshthsb</a></h4>
+			<h5>Version 1.0.0 </h5>
+		</footer>
+		<script src="versionChecker.js"></script>
+	</body>
+</html>
